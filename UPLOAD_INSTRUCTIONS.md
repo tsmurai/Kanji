@@ -1,13 +1,16 @@
 # Excel 更新のアップロード方法
 
-とても簡単です。Guest 用の Excel を更新したら、GitHub の「Upload files」ボタンを押してファイルを送るだけです。
+とても簡単です。苦手漢字リストの Excel を更新したら、GitHub の「Upload files」ボタンを押してファイルを送るだけです。
+
+**リポジトリのページ**: https://github.com/tsmurai/Kanji
+**アプリ本体**: https://tsmurai.github.io/Kanji/
 
 ## 1. Excel を更新する
-- Guest 用に変更したい漢字や内容を反映した Excel を保存します
+- 変更したい漢字や内容を反映した Excel を保存します
 - ファイル名は「漢字の要.xlsx」のままにしてください
 
 ## 2. GitHub でアップロードする
-1. GitHub のリポジトリページを開きます
+1. 上のリポジトリのページを開きます(要ログイン)
 2. 画面上の「Add file」ボタンを押します
 3. 「Upload files」を選びます
 4. 変更した Excel ファイルをドラッグ＆ドロップするか、ファイルを選びます
