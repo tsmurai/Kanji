@@ -1,0 +1,45 @@
+name: Update Kanji Data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '漢字の要.xlsx'
+      - 'tools/excel_to_json.py'
+      - 'tools/fetch_kanjivg.py'
+      - 'tools/fetch_kanjivg_kana.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install openpyxl
+
+      - name: Generate JSON data
+        run: |
+          python tools/excel_to_json.py
+
+      - name: Fetch KanjiVG stroke data for any new characters
+        run: |
+          python tools/fetch_kanjivg.py
+          python tools/fetch_kanjivg_kana.py
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/questions.json data/kanji_index.json data/question_index.json kanjivg/
+          git commit -m "Update generated kanji data" || echo "No changes to commit"
+          git push

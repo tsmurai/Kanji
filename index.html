@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>漢字添削アプリ</title>
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#2c6e49" />
+<link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+<header class="app-header">
+  <h1>漢字添削アプリ</h1>
+  <div id="userBadge" class="user-badge" hidden></div>
+</header>
+
+<main id="app">
+
+  <section id="screen-loading" class="screen">
+    <p class="screen-help">読み込み中です…</p>
+  </section>
+
+  <section id="screen-user" class="screen" hidden>
+    <h2>誰として練習しますか？</h2>
+    <p class="screen-help">使うユーザーを選んでください。選んだユーザーごとに進捗が分けて保存されます。</p>
+    <ul id="userList" class="user-list"></ul>
+    <form id="addUserForm" class="add-user-form">
+      <input id="newUserName" type="text" placeholder="新しいユーザー名" required />
+      <button type="submit">追加</button>
+    </form>
+  </section>
+
+  <section id="screen-home" class="screen" hidden>
+    <h2 id="homeGreeting"></h2>
+    <div class="practice-length-picker">
+      <span>何問ずつやりますか？</span>
+      <div id="practiceLengthOptions" class="practice-length-options"></div>
+    </div>
+    <div class="practice-length-picker">
+      <span>集中して練習したいページはありますか？(複数選択可)</span>
+      <div id="focusPageOptions" class="focus-page-options"></div>
+    </div>
+    <button id="startPracticeBtn" class="primary-btn">練習を始める</button>
+    <button id="switchUserBtn" class="secondary-btn">ユーザー切り替え</button>
+    <div id="progressSummary" class="progress-summary"></div>
+  </section>
+
+  <section id="screen-practice" class="screen" hidden>
+    <div class="practice-header">
+      <button id="backHomeBtn" class="link-btn">← ホームへ</button>
+      <form id="jumpQuestionForm" class="jump-question-form">
+        <input id="jumpInput" type="text" placeholder="番号/参照" />
+        <button id="jumpQuestionBtn" class="secondary-btn" type="submit">開く</button>
+      </form>
+    </div>
+    <div id="questionMeta" class="question-meta"></div>
+    <p id="questionSentence" class="question-sentence"></p>
+    <div id="charBoxes" class="char-boxes"></div>
+    <div class="practice-actions">
+      <button id="clearBtn" class="secondary-btn">やり直す</button>
+      <button id="gradeBtn" class="primary-btn">採点する</button>
+      <button id="nextBtn" class="primary-btn" hidden>次へ</button>
+      <button id="finishSetBtn" class="secondary-btn" hidden>終了</button>
+    </div>
+    <div id="resultArea" class="result-area"></div>
+  </section>
+
+</main>
+
+<script type="module" src="src/js/app.js"></script>
+</body>
+</html>
