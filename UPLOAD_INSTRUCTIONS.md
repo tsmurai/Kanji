@@ -1,4 +1,6 @@
-# Excel 更新のアップロード方法
+# 📝 漢字アプリ ― Excel 更新のアップロード方法
+
+> 社会(暗記アプリ)の資料アップロードをお探しの場合はこちら → [📘 社会アプリのアップロード手順](https://github.com/tsmurai/Shakai/blob/main/UPLOAD_INSTRUCTIONS.md)
 
 とても簡単です。苦手漢字リストの Excel を更新したら、GitHub の「Upload files」ボタンを押してファイルを送るだけです。
 
