@@ -329,10 +329,21 @@ async function renderQuestion(q) {
     undoBtn.className = "char-box-action-btn";
     undoBtn.textContent = "1文字消す";
 
+    // 漢字マスと送り仮名マスで同じ配線をする。
+    // (以前は送り仮名側の分岐が先に continue していたため、ボタンが無反応だった)
+    const bindUndo = (hwCanvas) => {
+      undoBtn.addEventListener("click", () => {
+        hwCanvas.clear();
+        feedback.textContent = "";
+      });
+    };
+
     if (segment.type === "kana") {
       // 送り仮名は文字数が答えの手がかりにならないよう、常に同じ横長の1マスにまとめる
       wrapper.className = "char-box char-box--kana";
       canvasEl.className = "handwriting-canvas handwriting-canvas--wide";
+      // このマスには送り仮名が何文字か入るため、「1文字消す」ではなくマスごと消す
+      undoBtn.textContent = "書き直す";
       wrapper.appendChild(canvasEl);
       wrapper.appendChild(feedback);
       actions.appendChild(undoBtn);
@@ -342,6 +353,7 @@ async function renderQuestion(q) {
       const hwCanvas = new HandwritingCanvas(canvasEl);
       const record = { text: segment.text, canvas: hwCanvas, feedbackEl: feedback, isKana: true };
       state.charCanvases.push(record);
+      bindUndo(hwCanvas);
 
       Promise.all([...segment.text].map((ch) => loadKanjiStrokes(codepointOf(ch))))
         .then((refs) => {
@@ -365,11 +377,7 @@ async function renderQuestion(q) {
     const entry = state.kanjiByChar.get(segment.char);
     const record = { char: segment.char, canvas: hwCanvas, feedbackEl: feedback, entry, isKana: false };
     state.charCanvases.push(record);
-
-    undoBtn.addEventListener("click", () => {
-      hwCanvas.clear();
-      feedback.textContent = "";
-    });
+    bindUndo(hwCanvas);
 
     if (entry) {
       loadKanjiStrokes(entry.codepoint)
