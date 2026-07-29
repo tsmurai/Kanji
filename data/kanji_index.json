@@ -23,6 +23,28 @@
     "priority": 4
   },
   {
+    "char": "厳",
+    "codepoint": "053b3",
+    "questionIds": [
+      "P6-:6-7",
+      "P6-:8-5",
+      "P6-:13-10",
+      "P6-:19-1",
+      "P6-:19-2",
+      "P6-:29-1",
+      "P6-:31-12",
+      "P6-:38-7",
+      "P48-50,68-93:48-3",
+      "P48-50,68-93:48-4",
+      "P51-52:51-6",
+      "P51-52:51-29"
+    ],
+    "count": 12,
+    "worstMastery": 1,
+    "avgMastery": 3.4,
+    "priority": 4
+  },
+  {
     "char": "業",
     "codepoint": "0696d",
     "questionIds": [
@@ -41,26 +63,6 @@
     "count": 11,
     "worstMastery": 1,
     "avgMastery": 3.45,
-    "priority": 4
-  },
-  {
-    "char": "厳",
-    "codepoint": "053b3",
-    "questionIds": [
-      "P6-:6-7",
-      "P6-:8-5",
-      "P6-:13-10",
-      "P6-:19-1",
-      "P6-:19-2",
-      "P6-:29-1",
-      "P6-:31-12",
-      "P6-:38-7",
-      "P48-50,68-93:48-3",
-      "P48-50,68-93:48-4"
-    ],
-    "count": 10,
-    "worstMastery": 1,
-    "avgMastery": 3.4,
     "priority": 4
   },
   {
@@ -142,6 +144,24 @@
     "priority": 4
   },
   {
+    "char": "率",
+    "codepoint": "07387",
+    "questionIds": [
+      "P6-:6-8",
+      "P6-:13-2",
+      "P6-:18-1",
+      "P6-:18-3",
+      "P6-:22-10",
+      "P6-:24-7",
+      "P6-:44-5",
+      "P51-52:51-5"
+    ],
+    "count": 8,
+    "worstMastery": 1,
+    "avgMastery": 3.57,
+    "priority": 4
+  },
+  {
     "char": "度",
     "codepoint": "05ea6",
     "questionIds": [
@@ -214,23 +234,6 @@
     "priority": 4
   },
   {
-    "char": "率",
-    "codepoint": "07387",
-    "questionIds": [
-      "P6-:6-8",
-      "P6-:13-2",
-      "P6-:18-1",
-      "P6-:18-3",
-      "P6-:22-10",
-      "P6-:24-7",
-      "P6-:44-5"
-    ],
-    "count": 7,
-    "worstMastery": 1,
-    "avgMastery": 3.57,
-    "priority": 4
-  },
-  {
     "char": "往",
     "codepoint": "05f80",
     "questionIds": [
@@ -296,6 +299,22 @@
     "count": 7,
     "worstMastery": 1,
     "avgMastery": 3.57,
+    "priority": 4
+  },
+  {
+    "char": "補",
+    "codepoint": "088dc",
+    "questionIds": [
+      "P6-:7-14",
+      "P6-:12-10",
+      "P6-:24-15",
+      "P6-:29-15",
+      "P6-:36-7",
+      "P51-52:51-24"
+    ],
+    "count": 6,
+    "worstMastery": 1,
+    "avgMastery": 3.4,
     "priority": 4
   },
   {
@@ -411,6 +430,21 @@
     "priority": 4
   },
   {
+    "char": "沿",
+    "codepoint": "06cbf",
+    "questionIds": [
+      "P6-:6-10",
+      "P6-:21-15",
+      "P6-:25-7",
+      "P6-:37-3",
+      "P51-52:51-12"
+    ],
+    "count": 5,
+    "worstMastery": 1,
+    "avgMastery": 3.25,
+    "priority": 4
+  },
+  {
     "char": "績",
     "codepoint": "07e3e",
     "questionIds": [
@@ -426,18 +460,33 @@
     "priority": 4
   },
   {
-    "char": "補",
-    "codepoint": "088dc",
+    "char": "朗",
+    "codepoint": "06717",
     "questionIds": [
-      "P6-:7-14",
-      "P6-:12-10",
-      "P6-:24-15",
-      "P6-:29-15",
-      "P6-:36-7"
+      "P6-:7-8",
+      "P6-:10-6",
+      "P6-:13-4",
+      "P6-:15-15",
+      "P51-52:51-19"
     ],
     "count": 5,
     "worstMastery": 1,
-    "avgMastery": 3.4,
+    "avgMastery": 3.25,
+    "priority": 4
+  },
+  {
+    "char": "貸",
+    "codepoint": "08cb8",
+    "questionIds": [
+      "P6-:7-12",
+      "P6-:23-15",
+      "P6-:43-6",
+      "P48-50,68-93:77-1",
+      "P51-52:51-22"
+    ],
+    "count": 5,
+    "worstMastery": 1,
+    "avgMastery": 3.25,
     "priority": 4
   },
   {
@@ -666,6 +715,21 @@
     "priority": 4
   },
   {
+    "char": "従",
+    "codepoint": "05f93",
+    "questionIds": [
+      "P6-:45-14",
+      "P6-:62-13",
+      "P6-:67-7",
+      "P48-50,68-93:92-3",
+      "P51-52:52-9"
+    ],
+    "count": 5,
+    "worstMastery": 1,
+    "avgMastery": 3.25,
+    "priority": 4
+  },
+  {
     "char": "動",
     "codepoint": "052d5",
     "questionIds": [
@@ -678,48 +742,6 @@
     "count": 5,
     "worstMastery": 1,
     "avgMastery": 3.4,
-    "priority": 4
-  },
-  {
-    "char": "沿",
-    "codepoint": "06cbf",
-    "questionIds": [
-      "P6-:6-10",
-      "P6-:21-15",
-      "P6-:25-7",
-      "P6-:37-3"
-    ],
-    "count": 4,
-    "worstMastery": 1,
-    "avgMastery": 3.25,
-    "priority": 4
-  },
-  {
-    "char": "朗",
-    "codepoint": "06717",
-    "questionIds": [
-      "P6-:7-8",
-      "P6-:10-6",
-      "P6-:13-4",
-      "P6-:15-15"
-    ],
-    "count": 4,
-    "worstMastery": 1,
-    "avgMastery": 3.25,
-    "priority": 4
-  },
-  {
-    "char": "貸",
-    "codepoint": "08cb8",
-    "questionIds": [
-      "P6-:7-12",
-      "P6-:23-15",
-      "P6-:43-6",
-      "P48-50,68-93:77-1"
-    ],
-    "count": 4,
-    "worstMastery": 1,
-    "avgMastery": 3.25,
     "priority": 4
   },
   {
@@ -779,6 +801,20 @@
     "priority": 4
   },
   {
+    "char": "頂",
+    "codepoint": "09802",
+    "questionIds": [
+      "P6-:17-13",
+      "P6-:55-15",
+      "P48-50,68-93:76-10",
+      "P51-52:51-20"
+    ],
+    "count": 4,
+    "worstMastery": 1,
+    "avgMastery": 3.0,
+    "priority": 4
+  },
+  {
     "char": "調",
     "codepoint": "08abf",
     "questionIds": [
@@ -804,6 +840,20 @@
     "count": 4,
     "worstMastery": 1,
     "avgMastery": 3.25,
+    "priority": 4
+  },
+  {
+    "char": "練",
+    "codepoint": "07df4",
+    "questionIds": [
+      "P6-:23-7",
+      "P6-:62-7",
+      "P48-50,68-93:74-8",
+      "P51-52:52-3"
+    ],
+    "count": 4,
+    "worstMastery": 1,
+    "avgMastery": 3.0,
     "priority": 4
   },
   {
@@ -849,17 +899,17 @@
     "priority": 4
   },
   {
-    "char": "従",
-    "codepoint": "05f93",
+    "char": "除",
+    "codepoint": "09664",
     "questionIds": [
-      "P6-:45-14",
-      "P6-:62-13",
-      "P6-:67-7",
-      "P48-50,68-93:92-3"
+      "P6-:25-14",
+      "P6-:65-14",
+      "P48-50,68-93:75-11",
+      "P51-52:52-10"
     ],
     "count": 4,
     "worstMastery": 1,
-    "avgMastery": 3.25,
+    "avgMastery": 2.0,
     "priority": 4
   },
   {
@@ -919,25 +969,25 @@
     "priority": 4
   },
   {
+    "char": "浴",
+    "codepoint": "06d74",
+    "questionIds": [
+      "P6-:10-14",
+      "P48-50,68-93:88-4",
+      "P51-52:52-27"
+    ],
+    "count": 3,
+    "worstMastery": 1,
+    "avgMastery": 2.5,
+    "priority": 4
+  },
+  {
     "char": "筋",
     "codepoint": "07b4b",
     "questionIds": [
       "P6-:14-6",
       "P6-:25-2",
       "P6-:54-19"
-    ],
-    "count": 3,
-    "worstMastery": 1,
-    "avgMastery": 3.0,
-    "priority": 4
-  },
-  {
-    "char": "頂",
-    "codepoint": "09802",
-    "questionIds": [
-      "P6-:17-13",
-      "P6-:55-15",
-      "P48-50,68-93:76-10"
     ],
     "count": 3,
     "worstMastery": 1,
@@ -977,19 +1027,6 @@
       "P6-:23-4",
       "P6-:言葉ナビ",
       "P48-50,68-93:91-2"
-    ],
-    "count": 3,
-    "worstMastery": 1,
-    "avgMastery": 3.0,
-    "priority": 4
-  },
-  {
-    "char": "練",
-    "codepoint": "07df4",
-    "questionIds": [
-      "P6-:23-7",
-      "P6-:62-7",
-      "P48-50,68-93:74-8"
     ],
     "count": 3,
     "worstMastery": 1,
@@ -1059,19 +1096,6 @@
     "count": 3,
     "worstMastery": 1,
     "avgMastery": 3.0,
-    "priority": 4
-  },
-  {
-    "char": "除",
-    "codepoint": "09664",
-    "questionIds": [
-      "P6-:25-14",
-      "P6-:65-14",
-      "P48-50,68-93:75-11"
-    ],
-    "count": 3,
-    "worstMastery": 1,
-    "avgMastery": 2.0,
     "priority": 4
   },
   {
@@ -1236,18 +1260,6 @@
     "questionIds": [
       "P6-:6-3",
       "P48-50,68-93:73-9"
-    ],
-    "count": 2,
-    "worstMastery": 1,
-    "avgMastery": 2.5,
-    "priority": 4
-  },
-  {
-    "char": "浴",
-    "codepoint": "06d74",
-    "questionIds": [
-      "P6-:10-14",
-      "P48-50,68-93:88-4"
     ],
     "count": 2,
     "worstMastery": 1,
@@ -1470,6 +1482,39 @@
     "priority": 2
   },
   {
+    "char": "額",
+    "codepoint": "0984d",
+    "questionIds": [
+      "P51-52:51-3"
+    ],
+    "count": 1,
+    "worstMastery": null,
+    "avgMastery": null,
+    "priority": 2
+  },
+  {
+    "char": "耕",
+    "codepoint": "08015",
+    "questionIds": [
+      "P51-52:51-15"
+    ],
+    "count": 1,
+    "worstMastery": null,
+    "avgMastery": null,
+    "priority": 2
+  },
+  {
+    "char": "激",
+    "codepoint": "06fc0",
+    "questionIds": [
+      "P51-52:52-20"
+    ],
+    "count": 1,
+    "worstMastery": null,
+    "avgMastery": null,
+    "priority": 2
+  },
+  {
     "char": "手",
     "codepoint": "0624b",
     "questionIds": [
@@ -1539,6 +1584,27 @@
     "priority": 1
   },
   {
+    "char": "任",
+    "codepoint": "04efb",
+    "questionIds": [
+      "P6-:6-5",
+      "P6-:14-14",
+      "P6-:19-10",
+      "P6-:24-6",
+      "P6-:37-6",
+      "P6-:42-7",
+      "P6-:61-16",
+      "P48-50,68-93:49-2",
+      "P48-50,68-93:80-7",
+      "P48-50,68-93:80-14",
+      "P51-52:51-7"
+    ],
+    "count": 11,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "断",
     "codepoint": "065ad",
     "questionIds": [
@@ -1576,26 +1642,6 @@
       "P48-50,68-93:88-7"
     ],
     "count": 11,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "任",
-    "codepoint": "04efb",
-    "questionIds": [
-      "P6-:6-5",
-      "P6-:14-14",
-      "P6-:19-10",
-      "P6-:24-6",
-      "P6-:37-6",
-      "P6-:42-7",
-      "P6-:61-16",
-      "P48-50,68-93:49-2",
-      "P48-50,68-93:80-7",
-      "P48-50,68-93:80-14"
-    ],
-    "count": 10,
     "worstMastery": 4,
     "avgMastery": 4.0,
     "priority": 1
@@ -1694,6 +1740,24 @@
       "P48-50,68-93:79-9"
     ],
     "count": 9,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "奮",
+    "codepoint": "0596e",
+    "questionIds": [
+      "P6-:6-9",
+      "P6-:7-7",
+      "P6-:20-2",
+      "P6-:20-14",
+      "P6-:24-12",
+      "P6-:55-16",
+      "P6-:59-4",
+      "P51-52:51-8"
+    ],
+    "count": 8,
     "worstMastery": 4,
     "avgMastery": 4.0,
     "priority": 1
@@ -1825,16 +1889,16 @@
     "priority": 1
   },
   {
-    "char": "奮",
-    "codepoint": "0596e",
+    "char": "裁",
+    "codepoint": "088c1",
     "questionIds": [
-      "P6-:6-9",
-      "P6-:7-7",
-      "P6-:20-2",
-      "P6-:20-14",
-      "P6-:24-12",
-      "P6-:55-16",
-      "P6-:59-4"
+      "P6-:6-15",
+      "P6-:14-10",
+      "P6-:29-5",
+      "P6-:39-2",
+      "P6-:56-20",
+      "P48-50,68-93:85-1",
+      "P51-52:51-13"
     ],
     "count": 7,
     "worstMastery": 4,
@@ -1910,6 +1974,23 @@
     "priority": 1
   },
   {
+    "char": "構",
+    "codepoint": "069cb",
+    "questionIds": [
+      "P6-:9-7",
+      "P6-:28-6",
+      "P6-:31-13",
+      "P6-:38-13",
+      "P6-:54-5",
+      "P6-:60-13",
+      "P51-52:52-6"
+    ],
+    "count": 7,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "報",
     "codepoint": "05831",
     "questionIds": [
@@ -1954,6 +2035,23 @@
       "P6-:45-2",
       "P6-:57-9",
       "P48-50,68-93:78-10"
+    ],
+    "count": 7,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "直",
+    "codepoint": "076f4",
+    "questionIds": [
+      "P6-:13-2",
+      "P6-:23-8",
+      "P48-50,68-93:49-13",
+      "P48-50,68-93:77-13",
+      "P48-50,68-93:86-2",
+      "P48-50,68-93:91-8",
+      "P51-52:51-23"
     ],
     "count": 7,
     "worstMastery": 4,
@@ -2056,6 +2154,23 @@
       "P6-:45-5",
       "P6-:46-15",
       "P48-50,68-93:75-6"
+    ],
+    "count": 7,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "反",
+    "codepoint": "053cd",
+    "questionIds": [
+      "P6-:17-11",
+      "P6-:59-1",
+      "P48-50,68-93:71-10",
+      "P48-50,68-93:78-14",
+      "P48-50,68-93:78-15",
+      "P48-50,68-93:86-4",
+      "P51-52:52-26"
     ],
     "count": 7,
     "worstMastery": 4,
@@ -2233,15 +2348,15 @@
     "priority": 1
   },
   {
-    "char": "裁",
-    "codepoint": "088c1",
+    "char": "潔",
+    "codepoint": "06f54",
     "questionIds": [
-      "P6-:6-15",
-      "P6-:14-10",
-      "P6-:29-5",
-      "P6-:39-2",
-      "P6-:56-20",
-      "P48-50,68-93:85-1"
+      "P6-:6-12",
+      "P6-:8-2",
+      "P6-:13-9",
+      "P6-:16-6",
+      "P6-:45-9",
+      "P51-52:51-25"
     ],
     "count": 6,
     "worstMastery": 4,
@@ -2329,22 +2444,6 @@
     "priority": 1
   },
   {
-    "char": "構",
-    "codepoint": "069cb",
-    "questionIds": [
-      "P6-:9-7",
-      "P6-:28-6",
-      "P6-:31-13",
-      "P6-:38-13",
-      "P6-:54-5",
-      "P6-:60-13"
-    ],
-    "count": 6,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "安",
     "codepoint": "05b89",
     "questionIds": [
@@ -2386,22 +2485,6 @@
       "P6-:63-5",
       "P48-50,68-93:81-4",
       "P48-50,68-93:92-1"
-    ],
-    "count": 6,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "直",
-    "codepoint": "076f4",
-    "questionIds": [
-      "P6-:13-2",
-      "P6-:23-8",
-      "P48-50,68-93:49-13",
-      "P48-50,68-93:77-13",
-      "P48-50,68-93:86-2",
-      "P48-50,68-93:91-8"
     ],
     "count": 6,
     "worstMastery": 4,
@@ -2514,22 +2597,6 @@
       "P6-:26-5",
       "P6-:35-7",
       "P48-50,68-93:86-3"
-    ],
-    "count": 6,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "反",
-    "codepoint": "053cd",
-    "questionIds": [
-      "P6-:17-11",
-      "P6-:59-1",
-      "P48-50,68-93:71-10",
-      "P48-50,68-93:78-14",
-      "P48-50,68-93:78-15",
-      "P48-50,68-93:86-4"
     ],
     "count": 6,
     "worstMastery": 4,
@@ -2760,14 +2827,14 @@
     "priority": 1
   },
   {
-    "char": "潔",
-    "codepoint": "06f54",
+    "char": "預",
+    "codepoint": "09810",
     "questionIds": [
-      "P6-:6-12",
-      "P6-:8-2",
-      "P6-:13-9",
-      "P6-:16-6",
-      "P6-:45-9"
+      "P6-:6-4",
+      "P6-:9-13",
+      "P6-:20-12",
+      "P6-:55-21",
+      "P51-52:51-11"
     ],
     "count": 5,
     "worstMastery": 4,
@@ -2790,6 +2857,21 @@
     "priority": 1
   },
   {
+    "char": "拝",
+    "codepoint": "062dd",
+    "questionIds": [
+      "P6-:7-2",
+      "P6-:19-4",
+      "P6-:20-7",
+      "P6-:29-9",
+      "P51-52:51-9"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "興",
     "codepoint": "08208",
     "questionIds": [
@@ -2805,6 +2887,21 @@
     "priority": 1
   },
   {
+    "char": "垂",
+    "codepoint": "05782",
+    "questionIds": [
+      "P6-:7-10",
+      "P6-:9-10",
+      "P6-:23-8",
+      "P51-52:51-21",
+      "P51-52:52-12"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "縦",
     "codepoint": "07e26",
     "questionIds": [
@@ -2813,6 +2910,21 @@
       "P6-:14-11",
       "P6-:54-24",
       "P48-50,68-93:82-7"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "設",
+    "codepoint": "08a2d",
+    "questionIds": [
+      "P6-:8-9",
+      "P6-:38-3",
+      "P6-:41-12",
+      "P48-50,68-93:49-15",
+      "P51-52:52-1"
     ],
     "count": 5,
     "worstMastery": 4,
@@ -2858,6 +2970,21 @@
       "P6-:29-13",
       "P6-:30-6",
       "P6-:55-22"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "盛",
+    "codepoint": "076db",
+    "questionIds": [
+      "P6-:10-12",
+      "P6-:34-4",
+      "P6-:58-23",
+      "P6-:60-29",
+      "P51-52:52-21"
     ],
     "count": 5,
     "worstMastery": 4,
@@ -3008,6 +3135,21 @@
       "P48-50,68-93:69-6",
       "P48-50,68-93:71-3",
       "P48-50,68-93:87-5"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "快",
+    "codepoint": "05feb",
+    "questionIds": [
+      "P6-:16-2",
+      "P6-:65-4",
+      "P48-50,68-93:68-3",
+      "P48-50,68-93:72-11",
+      "P51-52:51-14"
     ],
     "count": 5,
     "worstMastery": 4,
@@ -3390,6 +3532,21 @@
     "priority": 1
   },
   {
+    "char": "異",
+    "codepoint": "07570",
+    "questionIds": [
+      "P6-:36-10",
+      "P6-:59-13",
+      "P48-50,68-93:68-12",
+      "P48-50,68-93:69-1",
+      "P51-52:52-28"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "感",
     "codepoint": "0611f",
     "questionIds": [
@@ -3480,6 +3637,21 @@
     "priority": 1
   },
   {
+    "char": "逆",
+    "codepoint": "09006",
+    "questionIds": [
+      "P6-:57-24",
+      "P6-:57-25",
+      "P6-:60-1",
+      "P6-:67-3",
+      "P51-52:52-4"
+    ],
+    "count": 5,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "細",
     "codepoint": "07d30",
     "questionIds": [
@@ -3539,13 +3711,13 @@
     "priority": 1
   },
   {
-    "char": "預",
-    "codepoint": "09810",
+    "char": "刻",
+    "codepoint": "0523b",
     "questionIds": [
-      "P6-:6-4",
-      "P6-:9-13",
-      "P6-:20-12",
-      "P6-:55-21"
+      "P6-:6-2",
+      "P6-:14-13",
+      "P6-:32-8",
+      "P51-52:51-2"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3567,20 +3739,6 @@
     "priority": 1
   },
   {
-    "char": "拝",
-    "codepoint": "062dd",
-    "questionIds": [
-      "P6-:7-2",
-      "P6-:19-4",
-      "P6-:20-7",
-      "P6-:29-9"
-    ],
-    "count": 4,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "複",
     "codepoint": "08907",
     "questionIds": [
@@ -3588,6 +3746,20 @@
       "P6-:36-2",
       "P6-:36-3",
       "P48-50,68-93:89-4"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "険",
+    "codepoint": "0967a",
+    "questionIds": [
+      "P6-:7-6",
+      "P6-:29-2",
+      "P6-:学校",
+      "P51-52:51-1"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3609,13 +3781,13 @@
     "priority": 1
   },
   {
-    "char": "射",
-    "codepoint": "05c04",
+    "char": "済",
+    "codepoint": "06e08",
     "questionIds": [
-      "P6-:8-8",
-      "P6-:17-11",
-      "P6-:43-12",
-      "P6-:46-10"
+      "P6-:8-6",
+      "P6-:16-13",
+      "P6-:46-6",
+      "P51-52:51-30"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3623,13 +3795,13 @@
     "priority": 1
   },
   {
-    "char": "設",
-    "codepoint": "08a2d",
+    "char": "射",
+    "codepoint": "05c04",
     "questionIds": [
-      "P6-:8-9",
-      "P6-:38-3",
-      "P6-:41-12",
-      "P48-50,68-93:49-15"
+      "P6-:8-8",
+      "P6-:17-11",
+      "P6-:43-12",
+      "P6-:46-10"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3679,6 +3851,20 @@
     "priority": 1
   },
   {
+    "char": "捨",
+    "codepoint": "06368",
+    "questionIds": [
+      "P6-:9-8",
+      "P6-:19-6",
+      "P6-:38-5",
+      "P51-52:52-8"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "衛",
     "codepoint": "0885b",
     "questionIds": [
@@ -3721,13 +3907,13 @@
     "priority": 1
   },
   {
-    "char": "来",
-    "codepoint": "06765",
+    "char": "勢",
+    "codepoint": "052e2",
     "questionIds": [
-      "P6-:10-8",
-      "P6-:62-8",
-      "P6-:63-12",
-      "P48-50,68-93:88-15"
+      "P6-:10-3",
+      "P6-:10-7",
+      "P6-:36-11",
+      "P51-52:52-15"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3735,13 +3921,13 @@
     "priority": 1
   },
   {
-    "char": "盛",
-    "codepoint": "076db",
+    "char": "来",
+    "codepoint": "06765",
     "questionIds": [
-      "P6-:10-12",
-      "P6-:34-4",
-      "P6-:58-23",
-      "P6-:60-29"
+      "P6-:10-8",
+      "P6-:62-8",
+      "P6-:63-12",
+      "P48-50,68-93:88-15"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -3875,6 +4061,20 @@
     "priority": 1
   },
   {
+    "char": "敬",
+    "codepoint": "0656c",
+    "questionIds": [
+      "P6-:14-1",
+      "P6-:27-4",
+      "P6-:31-7",
+      "P51-52:51-10"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "刷",
     "codepoint": "05237",
     "questionIds": [
@@ -3952,20 +4152,6 @@
       "P6-:54-11",
       "P6-:55-13",
       "P48-50,68-93:76-11"
-    ],
-    "count": 4,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "快",
-    "codepoint": "05feb",
-    "questionIds": [
-      "P6-:16-2",
-      "P6-:65-4",
-      "P48-50,68-93:68-3",
-      "P48-50,68-93:72-11"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -4337,6 +4523,20 @@
     "priority": 1
   },
   {
+    "char": "健",
+    "codepoint": "05065",
+    "questionIds": [
+      "P6-:27-8",
+      "P6-:27-9",
+      "P6-:31-11",
+      "P51-52:52-5"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "支",
     "codepoint": "0652f",
     "questionIds": [
@@ -4477,20 +4677,6 @@
     "priority": 1
   },
   {
-    "char": "異",
-    "codepoint": "07570",
-    "questionIds": [
-      "P6-:36-10",
-      "P6-:59-13",
-      "P48-50,68-93:68-12",
-      "P48-50,68-93:69-1"
-    ],
-    "count": 4,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "予",
     "codepoint": "04e88",
     "questionIds": [
@@ -4498,6 +4684,20 @@
       "P6-:47-6",
       "P6-:64-14",
       "P48-50,68-93:83-11"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "幼",
+    "codepoint": "05e7c",
+    "questionIds": [
+      "P6-:36-14",
+      "P6-:47-7",
+      "P6-:59-10",
+      "P51-52:51-28"
     ],
     "count": 4,
     "worstMastery": 4,
@@ -4617,6 +4817,20 @@
     "priority": 1
   },
   {
+    "char": "半",
+    "codepoint": "0534a",
+    "questionIds": [
+      "P6-:45-5",
+      "P6-:62-12",
+      "P48-50,68-93:78-12",
+      "P51-52:52-18"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "本",
     "codepoint": "0672c",
     "questionIds": [
@@ -4715,20 +4929,6 @@
     "priority": 1
   },
   {
-    "char": "逆",
-    "codepoint": "09006",
-    "questionIds": [
-      "P6-:57-24",
-      "P6-:57-25",
-      "P6-:60-1",
-      "P6-:67-3"
-    ],
-    "count": 4,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "競",
     "codepoint": "07af6",
     "questionIds": [
@@ -4785,6 +4985,20 @@
     "priority": 1
   },
   {
+    "char": "背",
+    "codepoint": "080cc",
+    "questionIds": [
+      "P48-50,68-93:50-5",
+      "P48-50,68-93:83-2",
+      "P51-52:52-24",
+      "P51-52:52-25"
+    ],
+    "count": 4,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "納",
     "codepoint": "07d0d",
     "questionIds": [
@@ -4827,19 +5041,6 @@
     "priority": 1
   },
   {
-    "char": "刻",
-    "codepoint": "0523b",
-    "questionIds": [
-      "P6-:6-2",
-      "P6-:14-13",
-      "P6-:32-8"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "象",
     "codepoint": "08c61",
     "questionIds": [
@@ -4866,51 +5067,12 @@
     "priority": 1
   },
   {
-    "char": "険",
-    "codepoint": "0967a",
-    "questionIds": [
-      "P6-:7-6",
-      "P6-:29-2",
-      "P6-:学校"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "垂",
-    "codepoint": "05782",
-    "questionIds": [
-      "P6-:7-10",
-      "P6-:9-10",
-      "P6-:23-8"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "慣",
     "codepoint": "06163",
     "questionIds": [
       "P6-:8-4",
       "P6-:40-11",
       "P6-:59-23"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "済",
-    "codepoint": "06e08",
-    "questionIds": [
-      "P6-:8-6",
-      "P6-:16-13",
-      "P6-:46-6"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -4937,6 +5099,19 @@
       "P6-:8-11",
       "P6-:62-11",
       "P6-:63-3"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "夢",
+    "codepoint": "05922",
+    "questionIds": [
+      "P6-:8-15",
+      "P6-:47-13",
+      "P51-52:51-17"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -4983,25 +5158,12 @@
     "priority": 1
   },
   {
-    "char": "捨",
-    "codepoint": "06368",
+    "char": "招",
+    "codepoint": "062db",
     "questionIds": [
-      "P6-:9-8",
-      "P6-:19-6",
-      "P6-:38-5"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "勢",
-    "codepoint": "052e2",
-    "questionIds": [
-      "P6-:10-3",
-      "P6-:10-7",
-      "P6-:36-11"
+      "P6-:9-9",
+      "P6-:39-10",
+      "P51-52:52-11"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -5022,12 +5184,38 @@
     "priority": 1
   },
   {
+    "char": "操",
+    "codepoint": "064cd",
+    "questionIds": [
+      "P6-:10-9",
+      "P48-50,68-93:82-9",
+      "P51-52:52-22"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "蚕",
     "codepoint": "08695",
     "questionIds": [
       "P6-:11-1",
       "P6-:33-11",
       "P6-:58-13"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "幹",
+    "codepoint": "05e79",
+    "questionIds": [
+      "P6-:11-3",
+      "P6-:27-14",
+      "P51-52:52-29"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -5204,19 +5392,6 @@
     "priority": 1
   },
   {
-    "char": "敬",
-    "codepoint": "0656c",
-    "questionIds": [
-      "P6-:14-1",
-      "P6-:27-4",
-      "P6-:31-7"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "案",
     "codepoint": "06848",
     "questionIds": [
@@ -5334,6 +5509,19 @@
     "priority": 1
   },
   {
+    "char": "費",
+    "codepoint": "08cbb",
+    "questionIds": [
+      "P6-:17-7",
+      "P6-:44-14",
+      "P51-52:52-19"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "神",
     "codepoint": "0795e",
     "questionIds": [
@@ -5366,6 +5554,19 @@
       "P6-:18-13",
       "P6-:22-9",
       "P48-50,68-93:48-4"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "築",
+    "codepoint": "07bc9",
+    "questionIds": [
+      "P6-:18-14",
+      "P6-:38-13",
+      "P51-52:52-23"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -5496,19 +5697,6 @@
       "P6-:27-5",
       "P6-:44-5",
       "P48-50,68-93:78-5"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "健",
-    "codepoint": "05065",
-    "questionIds": [
-      "P6-:27-8",
-      "P6-:27-9",
-      "P6-:31-11"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -5854,19 +6042,6 @@
     "priority": 1
   },
   {
-    "char": "幼",
-    "codepoint": "05e7c",
-    "questionIds": [
-      "P6-:36-14",
-      "P6-:47-7",
-      "P6-:59-10"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "疑",
     "codepoint": "07591",
     "questionIds": [
@@ -5997,6 +6172,45 @@
     "priority": 1
   },
   {
+    "char": "速",
+    "codepoint": "0901f",
+    "questionIds": [
+      "P6-:43-8",
+      "P48-50,68-93:84-15",
+      "P51-52:52-16"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "注",
+    "codepoint": "06ce8",
+    "questionIds": [
+      "P6-:43-12",
+      "P48-50,68-93:77-14",
+      "P51-52:52-17"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "著",
+    "codepoint": "08457",
+    "questionIds": [
+      "P6-:43-13",
+      "P6-:62-4",
+      "P51-52:51-26"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "照",
     "codepoint": "07167",
     "questionIds": [
@@ -6016,19 +6230,6 @@
       "P6-:44-13",
       "P48-50,68-93:72-12",
       "P48-50,68-93:88-15"
-    ],
-    "count": 3,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "半",
-    "codepoint": "0534a",
-    "questionIds": [
-      "P6-:45-5",
-      "P6-:62-12",
-      "P48-50,68-93:78-12"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -6289,6 +6490,19 @@
       "P6-:63-15",
       "P6-:64-6",
       "P48-50,68-93:73-6"
+    ],
+    "count": 3,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "至",
+    "codepoint": "081f3",
+    "questionIds": [
+      "P6-:64-1",
+      "P48-50,68-93:69-12",
+      "P51-52:52-7"
     ],
     "count": 3,
     "worstMastery": 4,
@@ -6565,6 +6779,18 @@
     "priority": 1
   },
   {
+    "char": "拾",
+    "codepoint": "062fe",
+    "questionIds": [
+      "P6-:7-5",
+      "P51-52:51-16"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "誕",
     "codepoint": "08a95",
     "questionIds": [
@@ -6625,18 +6851,6 @@
     "priority": 1
   },
   {
-    "char": "夢",
-    "codepoint": "05922",
-    "questionIds": [
-      "P6-:8-15",
-      "P6-:47-13"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "病",
     "codepoint": "075c5",
     "questionIds": [
@@ -6654,18 +6868,6 @@
     "questionIds": [
       "P6-:9-5",
       "P6-:10-10"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "招",
-    "codepoint": "062db",
-    "questionIds": [
-      "P6-:9-9",
-      "P6-:39-10"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -6714,30 +6916,6 @@
     "questionIds": [
       "P6-:10-5",
       "P6-:47-14"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "操",
-    "codepoint": "064cd",
-    "questionIds": [
-      "P6-:10-9",
-      "P48-50,68-93:82-9"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "幹",
-    "codepoint": "05e79",
-    "questionIds": [
-      "P6-:11-3",
-      "P6-:27-14"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -6961,18 +7139,6 @@
     "priority": 1
   },
   {
-    "char": "費",
-    "codepoint": "08cbb",
-    "questionIds": [
-      "P6-:17-7",
-      "P6-:44-14"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "態",
     "codepoint": "0614b",
     "questionIds": [
@@ -7045,11 +7211,11 @@
     "priority": 1
   },
   {
-    "char": "建",
-    "codepoint": "05efa",
+    "char": "厚",
+    "codepoint": "0539a",
     "questionIds": [
-      "P6-:18-14",
-      "P6-:38-3"
+      "P6-:18-8",
+      "P51-52:52-14"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -7057,11 +7223,11 @@
     "priority": 1
   },
   {
-    "char": "築",
-    "codepoint": "07bc9",
+    "char": "建",
+    "codepoint": "05efa",
     "questionIds": [
       "P6-:18-14",
-      "P6-:38-13"
+      "P6-:38-3"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -7182,6 +7348,18 @@
     "questionIds": [
       "P6-:23-10",
       "P48-50,68-93:76-15"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "導",
+    "codepoint": "05c0e",
+    "questionIds": [
+      "P6-:24-5",
+      "P51-52:52-13"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -7477,6 +7655,18 @@
     "priority": 1
   },
   {
+    "char": "編",
+    "codepoint": "07de8",
+    "questionIds": [
+      "P6-:36-5",
+      "P51-52:52-2"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "助",
     "codepoint": "052a9",
     "questionIds": [
@@ -7669,42 +7859,6 @@
     "priority": 1
   },
   {
-    "char": "速",
-    "codepoint": "0901f",
-    "questionIds": [
-      "P6-:43-8",
-      "P48-50,68-93:84-15"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "注",
-    "codepoint": "06ce8",
-    "questionIds": [
-      "P6-:43-12",
-      "P48-50,68-93:77-14"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "著",
-    "codepoint": "08457",
-    "questionIds": [
-      "P6-:43-13",
-      "P6-:62-4"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "帳",
     "codepoint": "05e33",
     "questionIds": [
@@ -7813,6 +7967,18 @@
     "priority": 1
   },
   {
+    "char": "営",
+    "codepoint": "055b6",
+    "questionIds": [
+      "P6-:53-30",
+      "P51-52:51-4"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "障",
     "codepoint": "0969c",
     "questionIds": [
@@ -7825,11 +7991,35 @@
     "priority": 1
   },
   {
+    "char": "志",
+    "codepoint": "05fd7",
+    "questionIds": [
+      "P6-:54-20",
+      "P51-52:52-30"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "交",
     "codepoint": "04ea4",
     "questionIds": [
       "P6-:55-8",
       "P6-:60-11"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
+    "char": "省",
+    "codepoint": "07701",
+    "questionIds": [
+      "P6-:55-11",
+      "P51-52:51-18"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -7969,6 +8159,18 @@
     "priority": 1
   },
   {
+    "char": "届",
+    "codepoint": "05c4a",
+    "questionIds": [
+      "P6-:61-15",
+      "P51-52:51-27"
+    ],
+    "count": 2,
+    "worstMastery": 4,
+    "avgMastery": 4.0,
+    "priority": 1
+  },
+  {
     "char": "富",
     "codepoint": "05bcc",
     "questionIds": [
@@ -8034,18 +8236,6 @@
     "questionIds": [
       "P6-:63-12",
       "P6-:64-2"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "至",
-    "codepoint": "081f3",
-    "questionIds": [
-      "P6-:64-1",
-      "P48-50,68-93:69-12"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -8226,18 +8416,6 @@
     "questionIds": [
       "P48-50,68-93:49-12",
       "P48-50,68-93:71-6"
-    ],
-    "count": 2,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "背",
-    "codepoint": "080cc",
-    "questionIds": [
-      "P48-50,68-93:50-5",
-      "P48-50,68-93:83-2"
     ],
     "count": 2,
     "worstMastery": 4,
@@ -8616,17 +8794,6 @@
     "priority": 1
   },
   {
-    "char": "拾",
-    "codepoint": "062fe",
-    "questionIds": [
-      "P6-:7-5"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "貿",
     "codepoint": "08cbf",
     "questionIds": [
@@ -8792,17 +8959,6 @@
     "priority": 1
   },
   {
-    "char": "厚",
-    "codepoint": "0539a",
-    "questionIds": [
-      "P6-:18-8"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "組",
     "codepoint": "07d44",
     "questionIds": [
@@ -8906,17 +9062,6 @@
     "codepoint": "07279",
     "questionIds": [
       "P6-:24-4"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "導",
-    "codepoint": "05c0e",
-    "questionIds": [
-      "P6-:24-5"
     ],
     "count": 1,
     "worstMastery": 4,
@@ -9243,17 +9388,6 @@
     "priority": 1
   },
   {
-    "char": "編",
-    "codepoint": "07de8",
-    "questionIds": [
-      "P6-:36-5"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "児",
     "codepoint": "05150",
     "questionIds": [
@@ -9562,39 +9696,6 @@
     "priority": 1
   },
   {
-    "char": "営",
-    "codepoint": "055b6",
-    "questionIds": [
-      "P6-:53-30"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "志",
-    "codepoint": "05fd7",
-    "questionIds": [
-      "P6-:54-20"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "省",
-    "codepoint": "07701",
-    "questionIds": [
-      "P6-:55-11"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
     "char": "忘",
     "codepoint": "05fd8",
     "questionIds": [
@@ -9720,17 +9821,6 @@
     "codepoint": "076bf",
     "questionIds": [
       "P6-:60-16"
-    ],
-    "count": 1,
-    "worstMastery": 4,
-    "avgMastery": 4.0,
-    "priority": 1
-  },
-  {
-    "char": "届",
-    "codepoint": "05c4a",
-    "questionIds": [
-      "P6-:61-15"
     ],
     "count": 1,
     "worstMastery": 4,
