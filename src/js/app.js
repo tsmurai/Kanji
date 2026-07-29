@@ -41,7 +41,7 @@ function getQuestionDifficultyScore(question, userId) {
     return Math.max(max, store.getWeaknessScore(userId, c, basePriority));
   }, 0);
 
-  const questionScore = store.getQuestionWeaknessScore(userId, question.id, 1);
+  const questionScore = store.getQuestionWeaknessScore(userId, question.id, question.mastery);
   return Math.max(charScore, questionScore);
 }
 
@@ -202,8 +202,18 @@ function renderProgressSummary() {
   // まとまり(例: "って")の記録も同じ場所に入っているため、「苦手そうな漢字」には
   // 実際に漢字1文字のキーだけを対象にする。
   const kanjiKeys = Object.keys(progress).filter((k) => [...k].length === 1 && KANJI_RE.test(k));
+
+  // エクセルの「結果」列が空欄の問題(追加されたばかりのページなど)は、
+  // 一度解くまで優先的に出題される。あと何問残っているかを表示する。
+  const unratedTotal = state.questions.filter((q) => q.mastery === null || q.mastery === undefined);
+  const unratedRemaining = unratedTotal.filter((q) => !progress[q.id]).length;
+  const unratedLine =
+    unratedTotal.length > 0 && unratedRemaining > 0
+      ? `<p>まだ一度も解いていない新しい問題: あと${unratedRemaining}問</p>`
+      : "";
+
   if (kanjiKeys.length === 0) {
-    els.progressSummary.textContent = "まだ練習記録がありません。";
+    els.progressSummary.innerHTML = `<p>まだ練習記録がありません。</p>${unratedLine}`;
     return;
   }
   const weakChars = kanjiKeys
@@ -214,7 +224,8 @@ function renderProgressSummary() {
     `<p>練習した漢字: ${kanjiKeys.length}字</p>` +
     (weakChars.length
       ? `<p>苦手そうな漢字: <span class="weak-chars">${weakChars.join(" ")}</span></p>`
-      : "");
+      : "") +
+    unratedLine;
 }
 
 // --- 出題選択 ---
@@ -224,6 +235,8 @@ function recordPick(id, source) {
   if (state.recentQuestionIds.length > 8) state.recentQuestionIds.shift();
   state.lastPickSource = source;
 }
+
+const POOL_SIZE = 20;
 
 function pickNextQuestion() {
   const lastId = state.recentQuestionIds[state.recentQuestionIds.length - 1];
@@ -254,9 +267,16 @@ function pickNextQuestion() {
     chars: [...q.answer].filter((c) => KANJI_RE.test(c)),
   }));
 
+  if (scored.length === 0) return null;
+
   scored.sort((a, b) => b.score - a.score);
-  const pool = scored.slice(0, 20).filter((s) => !state.recentQuestionIds.includes(s.q.id));
-  const candidates = pool.length > 0 ? pool : scored.slice(0, 20);
+  // 同じスコアの問題は数十〜百問単位で並ぶ(まだ一度も解いていない問題など)。
+  // 上位20件で機械的に切ると境界の同点分が常に切り捨てられ、毎回同じ問題ばかりになるため、
+  // 20件目と同点のものはすべて候補に含めたうえで抽選する。
+  const cutoff = scored[Math.min(POOL_SIZE, scored.length) - 1].score;
+  const tiered = scored.filter((s) => s.score >= cutoff);
+  const pool = tiered.filter((s) => !state.recentQuestionIds.includes(s.q.id));
+  const candidates = pool.length > 0 ? pool : tiered;
   const pick = candidates[Math.floor(Math.random() * candidates.length)];
 
   recordPick(pick.q.id, "pool");
@@ -374,6 +394,10 @@ async function loadNextQuestion() {
   }
 
   const q = pickNextQuestion();
+  if (!q) {
+    els.resultArea.innerHTML = '<p class="warn">出題できる問題が見つかりませんでした。</p>';
+    return;
+  }
   await renderQuestion(q);
 }
 

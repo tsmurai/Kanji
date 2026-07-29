@@ -130,9 +130,30 @@ export function getWeaknessScore(userId, char, basePriority) {
   return basePriority * 10 + streakPenalty;
 }
 
-export function getQuestionWeaknessScore(userId, questionId, basePriority) {
+// エクセルの「結果」列を出題優先度(大きいほど優先)に変換する。
+// 4=よくできる → 1、1=間違いが多い → 4。
+// 「結果」列が空欄の問題(追加されたばかりのページなど)は実力が分からないため、
+// まず一度ずつ出題して実力を測りたい。そこで評価済みの最大(4)より上の 5 を与え、
+// 一巡するまで優先させる。ただし直近で間違えた問題・漢字は連続不正解の加点で
+// これを上回るので、苦手なものが後回しになることはない。
+const UNRATED_PRIORITY = 5;
+
+// 未評価の問題は一度解答した時点で下駄を外し、以降はその結果
+// (できた=1 / できなかった=4)をエクセルの評価の代わりに使う。
+function questionBasePriority(mastery, entry) {
+  if (mastery === null || mastery === undefined) {
+    if (!entry) return UNRATED_PRIORITY;
+    return entry.lastResult === "ng" ? 4 : 1;
+  }
+  const m = Number(mastery);
+  if (!Number.isFinite(m)) return 2;
+  return Math.min(4, Math.max(1, 5 - m));
+}
+
+export function getQuestionWeaknessScore(userId, questionId, mastery) {
   const progress = getProgress(userId);
   const entry = progress[questionId];
+  const basePriority = questionBasePriority(mastery, entry);
   if (!entry) return basePriority * 10;
   const streakPenalty = entry.streak < 0 ? -entry.streak * 8 : -entry.streak * 3;
   return basePriority * 10 + streakPenalty;
